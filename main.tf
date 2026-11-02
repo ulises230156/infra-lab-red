@@ -16,6 +16,6 @@ resource "docker_container" "servidor_lab" {
   image = "nginx:alpine"
   ports {
     internal = 80
-    external = 8082
+    external = 8085
   }
 }
